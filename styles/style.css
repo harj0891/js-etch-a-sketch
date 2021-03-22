@@ -1,6 +1,5 @@
 * {
-    box-sizing: border-box;
-    
+    box-sizing: border-box;   
 }
 
 body {
@@ -23,11 +22,12 @@ body {
     margin-bottom: 1rem;
 }
 
+/* 
 .grid-container {
-    /* padding: 0 1rem;   */
-}
+} */
 
 .grid-main {
+    border: 0.1px solid black;
     display:flex;
     flex-direction: column;
     width:500px;
@@ -42,7 +42,7 @@ body {
 .grid-item {
     display:flex;
     background-color:white;
-    border: 1px solid black;
+    border: 0.1px solid rgb(180, 180, 180);
     flex-grow: 2;
     width:31px;
     height: 100%;  
